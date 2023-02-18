@@ -11,7 +11,7 @@
 	int n;
 	int a;
 
-	strand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 
