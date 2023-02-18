@@ -7,13 +7,13 @@
 int main(void)
 {
 	int num;
-	char sx;
+	char la;
 
-	for (num = '0'; num <= '10'; num++)
+	for (num = 0; num <= 10; num++)
 		putchar((num % 10) + '0');
 
-	for (sx = 'a'; sx <= 'f'; sx++)
-		putchar(sx);
+	for (la = 'a'; la <= 'f'; la++)
+		putchar(la);
 
 	putchar('\n');
 
