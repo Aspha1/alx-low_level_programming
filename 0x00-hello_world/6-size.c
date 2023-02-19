@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Entry
@@ -14,4 +14,3 @@ int main(void)
 	return (0);
 
 }
-
