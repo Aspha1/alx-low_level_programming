@@ -12,10 +12,10 @@ int main(void)
 	{
 		putchar((num % 10) + '0');
 		if (num != 57)
-
-		putchar(',');
-		putchar(' ');
-	}
+		{
+			putchar(',');
+			putchar(' ');
+		}
 
 	putchar('\n');
 
