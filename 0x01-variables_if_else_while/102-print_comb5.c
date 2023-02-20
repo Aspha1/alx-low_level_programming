@@ -17,6 +17,7 @@ int main(void)
 			putchar(a % 10 + '0');
 			putchar(b / 10 + '0');
 			putchar(b % 10 + '0');
+			putchar(' ');
 
 			if (a != 98 && b != 99)
 			{
