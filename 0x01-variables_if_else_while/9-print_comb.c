@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 48; n < 58; n++)
 	{
-		putchar(n);
+		putchar((n % 10) + '0');
 
 		if (n != 57)
 		{
@@ -20,4 +20,5 @@ int main(void)
 		}
 	putchar('\n');
 	return (0);
+
 	}
