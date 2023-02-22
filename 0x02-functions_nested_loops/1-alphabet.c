@@ -5,12 +5,10 @@
  */
 void print_alphabet(void);
 {
-	char lc;
+	char la;
 
-	for (lc = '97'; lc <= '122'; lc++)
-		_putchar(lc);
+	for (la = '97'; la <= '122'; la++)
+		_putchar(la);
 
 	_putchar('\n');
-
-	return (0);
 }
